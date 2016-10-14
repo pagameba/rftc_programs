@@ -1,0 +1,550 @@
+[
+  {
+    "pos": {
+      "x": 1,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_lock",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "craft"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_craftfail",
+      "primary": "D",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_timer",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 10
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 1
+    },
+    "opcode": {
+      "id": "ev_craft",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west",
+            "node": "a"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_craftok",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 9
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_releaselock",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "craft"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_fetchitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "intside": "down",
+            "node": "a"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 64
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 9
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 64
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_releaselock",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "craft"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_pushmulti",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "intside": "up",
+            "node": "a"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 8
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_fetchitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "intside": "south",
+            "node": "a"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 0
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 64
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 10
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 1
+    },
+    "opcode": {
+      "id": "test_eq",
+      "primary": "R",
+      "secondary": "u",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "fun": "last_int"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 4
+    },
+    "opcode": {
+      "id": "test_loop",
+      "primary": "R",
+      "secondary": "u",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 26
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_lock",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "craft"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 1
+    },
+    "opcode": {
+      "id": "test_eq",
+      "primary": "D",
+      "secondary": "r",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "fun": "last_int"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": -1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_getingredients_smart",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west",
+            "node": "a"
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 8
+          }
+        },
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "intside": "south",
+            "node": "a"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_releaselock",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "craft"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_integer",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  }
+]
